@@ -1,0 +1,18 @@
+{
+  "name": "docker-aws-deployment",
+  "description": "A barebones Turborepo example for working with Task Graphs.",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "devDependencies": {
+    "turbo": "^2.9.6",
+    "@biomejs/biome": "latest"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "check": "biome check .",
+    "format": "biome check . --write"
+  }
+}
