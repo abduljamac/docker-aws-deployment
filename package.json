@@ -4,8 +4,8 @@
   "private": true,
   "packageManager": "pnpm@8.15.6",
   "devDependencies": {
-    "turbo": "^2.9.6",
-    "@biomejs/biome": "latest"
+    "turbo": "^2.11.11",
+    "@biomejs/biome": "^2.6.8"
   },
   "scripts": {
     "dev": "turbo dev",
